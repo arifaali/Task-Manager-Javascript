@@ -1,0 +1,56 @@
+# Task Manager
+
+This is a simple Task Manager application built with vanilla JavaScript and Tailwind CSS. It allows users to add, complete, and delete tasks. Tasks are saved in the browser's local storage, so they persist even after the page is refreshed.
+
+## Features
+
+- Add new tasks
+- Mark tasks as complete/incomplete
+- Delete tasks
+- Persistent storage using local storage
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, you need a web browser that supports modern JavaScript.
+
+### Installation
+
+1. Clone the repository or download the zip file.
+
+Usage
+
+1. Add a Task:
+   Type a task description in the input field.
+   Click the "Add" button to add the task to the list.
+
+2. Mark Task as Complete/Incomplete:
+   Click the green checkmark button next to a task to mark it as complete.
+   Click the "Undo" button that appears to mark it as incomplete.
+
+3. Delete a Task:
+   Click the red "X" button next to a task to delete it from the list.
+
+### Code Explanation
+
+index.html
+
+The main HTML file that includes the structure of the task manager and links to the CSS and JavaScript files.
+
+js/app.js
+
+Handles the DOMContentLoaded event, manages event listeners for adding tasks, and initializes the task list from local storage.
+
+js/storage.js
+
+Manages the loading and saving of tasks to local storage.
+
+js/task.js
+
+Defines the Task class which handles task creation, addition to the DOM, and toggling completion status.
+
+### Additional Notes
+
+1. **FontAwesome Icons**: Ensure you have the FontAwesome library included in your `index.html` if you use FontAwesome icons.
+2. Tailwind CSS: The project uses Tailwind CSS for styling.
