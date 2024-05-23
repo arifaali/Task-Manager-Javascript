@@ -50,6 +50,34 @@ js/task.js
 
 Defines the Task class which handles task creation, addition to the DOM, and toggling completion status.
 
+### Testing with Jest
+
+Jest is a delightful JavaScript testing framework with a focus on simplicity. It works seamlessly with projects using modern JavaScript features like ES6 modules.
+
+### Installation
+
+To install Jest for your project, run the following command:
+
+npm install --save-dev jest
+
+Configuration
+
+After installing Jest, you need to configure it to use the jsdom test environment. Create a jest.config.js file in the root directory of your project if you don't have one already, and add the following configuration:
+
+module.exports = {
+testEnvironment: 'jsdom',
+};
+
+### Writing Tests
+
+You can write test cases for your JavaScript code in separate test files. For example, to test the Task class methods, create a file named task.test.js in the **tests** directory.
+
+### Running Tests
+
+To run your Jest tests, execute the following command in your terminal:
+
+npm test
+
 ### Additional Notes
 
 1. **FontAwesome Icons**: Ensure you have the FontAwesome library included in your `index.html` if you use FontAwesome icons.

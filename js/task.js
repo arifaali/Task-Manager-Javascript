@@ -31,7 +31,7 @@ class Task {
       } complete bg-green-500 text-white p-2 cursor-pointer" title=${
       task.complete_status ? 'Undo' : 'Complete'
     } ></i>
-     <i class="fas fa-trash-alt delete bg-red-500 text-white p-2"></i>
+     <i class="fas fa-trash-alt delete bg-red-500 text-white p-2" title="Delete"></i>
     </div>`;
     taskList.appendChild(taskItem);
   };
@@ -65,3 +65,4 @@ class Task {
     }
   };
 }
+module.exports = Task;
