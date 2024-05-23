@@ -1,0 +1,15 @@
+{
+  "name": "task-manager-javascript",
+  "version": "1.0.0",
+  "description": "This is a simple Task Manager application built with vanilla JavaScript and Tailwind CSS. It allows users to add, complete, and delete tasks. Tasks are saved in the browser's local storage, so they persist even after the page is refreshed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
